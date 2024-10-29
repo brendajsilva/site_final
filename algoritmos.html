@@ -3,42 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Algoritmos e Lógica Computacional - FuturoTech">
     <link rel="stylesheet" href="styles.css">
-    <title>Algoritmos e Lógica Computacional</title>
+    <title>Algoritmos e Lógica Computacional - FuturoTech</title>
 </head>
+
 <body>
-    <header>
-        <h1>FuturoTech</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="algoritmos.html">Algoritmos</a></li>
-                <li><a href="componentes.html">Componentes</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>FuturoTech</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="algoritmos.html" class="active">Algoritmos</a></li>
+                    <li><a href="componentes.html">Componentes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="algoritmos">
-            <h2>Algoritmos e Lógica Computacional</h2>
-            <p>Implementamos algoritmos eficientes para diversas aplicações.</p>
-            <h3>Exemplos de Algoritmos</h3>
-            <ol>
-                <li>Busca Binária</li>
-                <li>Ordenação por Inserção</li>
-                <li>Ordenação Rápida</li>
-            </ol>
-            <h3>Fluxogramas de Algoritmos</h3>
-            <img src="fluxograma.png" alt="Fluxograma 1">
-            <img src="fluxograma2.png" alt="Fluxograma 2">
-            <img src="fluxograma3.png" alt="Fluxograma 3">
+    <main class="main-content">
+        <section id="algoritmos" class="algorithms-section">
+            <h2 class="section-title">Algoritmos e Lógica Computacional</h2>
+            
+            <div class="intro-text">
+                <p>Implementamos algoritmos eficientes para diversas aplicações.</p>
+            </div>
+
+            <div class="algorithms-container">
+                <div class="algorithm-types">
+                    <h3>Exemplos de Algoritmos</h3>
+                    <ol class="algorithm-list">
+                        <li>
+                            <h4>Busca Binária</h4>
+                            <p>Algoritmo eficiente para busca em conjuntos ordenados</p>
+                        </li>
+                        <li>
+                            <h4>Ordenação por Inserção</h4>
+                            <p>Ideal para pequenos conjuntos de dados</p>
+                        </li>
+                        <li>
+                            <h4>Ordenação Rápida</h4>
+                            <p>Algoritmo eficiente para grandes conjuntos de dados</p>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="flowcharts">
+                    <h3>Fluxogramas de Algoritmos</h3>
+                    <div class="flowchart-gallery">
+                        <figure>
+                            <img src="fluxograma.png" alt="Fluxograma de Busca Binária" class="flowchart-img">
+                            <figcaption>Fluxograma de Busca Binária</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="fluxograma2.png" alt="Fluxograma de Ordenação por Inserção" class="flowchart-img">
+                            <figcaption>Fluxograma de Ordenação por Inserção</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="fluxograma3.png" alt="Fluxograma de Ordenação Rápida" class="flowchart-img">
+                            <figcaption>Fluxograma de Ordenação Rápida</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Empresa de Desenvolvimento de Sistemas. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>

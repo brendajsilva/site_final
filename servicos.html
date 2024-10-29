@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Nossos Serviços</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços oferecidos pela FuturoTech - Programação, Bancos de Dados e Redes">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nossos Serviços - FuturoTech</title>
 </head>
+
 <body>
-    <header>
-        <h1>FuturoTech</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="algoritmos.html">Algoritmos</a></li>
-                <li><a href="componentes.html">Componentes</a></li>
-                <li><a href="redes.html">Componentes</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>FuturoTech</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html" class="active">Serviços</a></li>
+                    <li><a href="algoritmos.html">Algoritmos</a></li>
+                    <li><a href="componentes.html">Componentes</a></li>
+                    <li><a href="redes.html">Redes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="servicos">
-            <h2>Nossos Serviços</h2>
-            <h3>Programação e Bancos de Dados</h3>
-            <p>Oferecemos serviços de programação em diversas linguagens e trabalhamos com bancos de dados relacionais:</p>
-            <ul>
-                <li>MySQL</li>
-                <li>Redes</li>
-            </ul>
-        </section>
-    </main>
-    <main>
-        <section id="servicos">
-            <h3>Fundamentos de redes</h3>
-            <p>O que é uma rede de computadores?</p>
-            <p>Em termos simples, uma rede de computadores é um conjunto de dispositivos eletrônicos (como computadores, smartphones, tablets, etc.) interligados, capazes de compartilhar informações e recursos. Imagine uma teia onde cada nó é um dispositivo e as linhas são as conexões.</p><br><br>
-            <h4>Por que as redes são importantes?</h4>
-            <p>Compartilhamento de recursos: Impressoras, arquivos, internet, etc. podem ser acessados por diversos dispositivos.
-               Comunicação: E-mails, mensagens instantâneas, videoconferências, tudo isso é possível através das redes.
-               Acesso à informação: A internet, a maior rede mundial, conecta bilhões de dispositivos e pessoas.</p>
-        
+    <main class="main-content">
+        <section id="servicos" class="services-section">
+            <h2 class="section-title">Nossos Serviços</h2>
+            
+            <div class="service-card">
+                <h3>Programação e Bancos de Dados</h3>
+                <p>Oferecemos serviços de programação em diversas linguagens e trabalhamos com bancos de dados relacionais:</p>
+                <ul class="service-list">
+                    <li>MySQL</li>
+                    <li>Redes</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>Fundamentos de Redes</h3>
+                <div class="network-info">
+                    <h4>O que é uma rede de computadores?</h4>
+                    <p>Em termos simples, uma rede de computadores é um conjunto de dispositivos eletrônicos (como computadores, smartphones, tablets, etc.) interligados, capazes de compartilhar informações e recursos. Imagine uma teia onde cada nó é um dispositivo e as linhas são as conexões.</p>
+                    
+                    <h4>Por que as redes são importantes?</h4>
+                    <ul class="benefits-list">
+                        <li><strong>Compartilhamento de recursos:</strong> Impressoras, arquivos, internet, etc. podem ser acessados por diversos dispositivos.</li>
+                        <li><strong>Comunicação:</strong> E-mails, mensagens instantâneas, videoconferências, tudo isso é possível através das redes.</li>
+                        <li><strong>Acesso à informação:</strong> A internet, a maior rede mundial, conecta bilhões de dispositivos e pessoas.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
+    <footer class="main-footer">
+        <p>&copy; 2024 FuturoTech. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
